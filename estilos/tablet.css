@@ -1,0 +1,62 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 768px) and (max-width: 992px){
+    main{
+        background: linear-gradient(to bottom, aqua, rgb(23, 101, 133));
+    }
+    
+    section#login{
+        width: 90vw;
+     
+    }
+    
+    div#imagem{
+        float: left;
+        width: 30%;
+        height: 100%;
+    }
+
+    div#formulario{
+        width: 70%;
+        height: 100%;
+        float: right;
+    }
+
+    input#botao{
+    width: 90%;
+    margin: auto;
+    margin-top: 5px;
+    margin-bottom: 5px;
+
+    }
+}
+
+@media screen and (min-width: 992px){
+    main{
+        background: linear-gradient(to bottom, aqua, rgb(23, 101, 133));
+    }
+
+    section#login{
+        width: 90vw;
+    }
+
+    div#imagem{
+        float: right;
+        width: 40%;
+        height: 100%;
+    }
+
+    div#formulario{
+        float: left;
+        width: 60%;
+        height: 100%;
+    }
+
+    input#botao{
+        width: 90%;
+        margin: auto;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    
+        }
+}
